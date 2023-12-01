@@ -1,0 +1,12 @@
+La pregunta nos dice lo siguiente: Se requiere realizar un cambio en el software para que soporte un valor máximo de 200 soles a transferir
+por día. Qué cambiaría en el código (Clases / Métodos) - No implementación.
+Nuevos casos de prueba a adicionar. Cuánto riesgo hay de “romper” lo que ya funciona?
+
+RESPUESTA:
+Bueno en particular yo plantee el archivo methods.py según las indicaciones dadas.
+Una condición de la que no se da y se podría mejorar en el código es el tope que podría haber en una transferencia ya que tanto Yape como Plin cuentan
+con límites diarios de montos a transferirse, personalmente como jugando en una clase me fije que yape tiene un límite así como menciona el enunciado de 200 soles máximos a transferir y debido a eso
+puedo considerar en agregar un atributo en la tabla cuenta para representar el límite máximo que se puede transferir en un rango definido, agregando eso capaz es posible actualizar el método pagar
+para corroborar si el monto total supera el limite máximo antes de realizar la operación. Un caso de prueba a adicionar sería
+test_montolimite en donde se especificará la ruta para que verifiquen el montolímite. Si los casos de prueba
+funcionan no habrá riesgo a que el código que ya funciona se rompa.
