@@ -8,7 +8,7 @@ app = Flask(__name__)
 #Creamos la data con los ejemplos presentados en el enunciado
 
 Data = {
-        '21345' : cuenta('21345', 'Arnaldo', 200, ['123', '456']), '123': cuenta('123','Luisa',400,['456']), '456': cuenta('456','Andrea','300',['21345'])
+        '21345' : cuenta('21345', 'Arnaldo', 200, ['123', '456']), '123': cuenta('123','Luisa',450,['456']), '456': cuenta('456','Andrea','300',['21345'])
 }
 
 #Implementando endpoint 1 => /billetera/contactos?minumero=21345
